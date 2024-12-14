@@ -1,0 +1,79 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container1{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgb(240,242,245);
+}
+.box1{
+    height: 400px;
+    width: 420px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container2{
+    height: 380px;
+    width: 390px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+}
+.box2{
+   padding: 15px;
+}
+.in,.new{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input{
+    padding: 15px 20px;
+    width: 338px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    font-size: medium;
+}
+.in button{
+    padding: 20px,20px;
+    height: 40px;
+    width: 338px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(24,119,242);
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+}
+.new button{
+    padding: 20px,20px;
+    height: 45px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(66,183,42);
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+}
+p{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 390%;
+    color: rgb(24,119,242);
+}
+pre{
+    font-size: 175%;
+    color: rgb(17,17,17);
+}
